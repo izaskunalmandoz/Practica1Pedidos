@@ -1,0 +1,19 @@
+.pedido {
+    padding: 1.5rem;
+    margin: 1rem 2rem;
+    border-radius: 12px;
+    background-color: #b4c1d574;
+    text-align: left;
+    color: rgb(0, 0, 0);
+}
+
+.pedido h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.precio2 {
+    font-size:1.5rem;
+    font-weight: 600;
+    padding: 0.5rem;
+}

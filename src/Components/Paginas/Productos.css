@@ -1,0 +1,28 @@
+.body {
+    padding: 0.5rem;
+    margin: 1rem 2rem;
+    border-radius: 12px;
+    background-color: #b4c1d574;
+    text-align: left;
+    color: rgb(0, 0, 0);
+}
+
+.bodyTitulo {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.boton {
+    padding: 2rem;
+    text-align: left;
+}
+
+.body h3 {
+    margin: 1rem 2rem;
+}
+
+.body h4 {
+    margin: 1rem 2rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+}

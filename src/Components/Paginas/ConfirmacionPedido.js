@@ -18,7 +18,8 @@ function ConfirmacionPedido(props) {
                     id: num,
                     nombre: response.data[num].nombre,
                     precio: response.data[num].precio,
-                    fecha: response.data[num].fecha
+                    fecha: response.data[num].fecha,
+                    imagen: response.data[num].imagen
                 });
             }
             setProductos(arrayProductos);
@@ -61,6 +62,7 @@ function ConfirmacionPedido(props) {
                         fecha={elemento.fecha}
                         addProducto={props.addProducto}
                         cant={cant}
+                        imagen={elemento.imagen}
                     />
                 )
             }
